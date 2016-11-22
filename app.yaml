@@ -31,5 +31,5 @@ handlers:
   static_dir: static/js
 
   # dev_appserver.py ~/projects/www-postpal
-  #nope-application: www-postpal
-  #nope-version: 1
+  # nope-application: www-postpal
+  # nope-version: 1
