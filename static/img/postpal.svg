@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 310 120" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g transform="matrix(1, 0, 0, 1, 5, 2)">
+    <g transform="matrix(0.386679, 0, 0, 0.386679, 0.667645, 3.758543)">
+      <ellipse cx="206.366" cy="142.536" rx="38.345" ry="38.345" style="fill: rgb(166, 26, 13);"/>
+      <path d="M 206.353 143.416 m -129.916 0 a 129.916 129.916 0 1 0 259.832 0 a 129.916 129.916 0 1 0 -259.832 0 Z M 206.353 143.416 m -77.95 0 a 77.95 77.95 0 0 1 155.9 0 a 77.95 77.95 0 0 1 -155.9 0 Z" style="fill: rgb(36, 145, 0);" bx:shape="ring 206.353 143.416 77.95 77.95 129.916 129.916 1@42eb560f"/>
+    </g>
+    <text x="5.889" y="78.947" style="font-family: Sans-Serif;font-size: 80px; font-weight: bold; white-space: pre;">p stpal</text>
+  </g>
+</svg>
