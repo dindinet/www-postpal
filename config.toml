@@ -1,6 +1,4 @@
----
 baseurl: "https://www.postpal.com/"
 title: "Mentoring for the digitally crippled"
 ignoreFiles:
  - "\\.yaml$"
-...
