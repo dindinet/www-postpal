@@ -1,5 +1,4 @@
-#application: www-postpal
-#version: 1
+
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -33,3 +32,5 @@ handlers:
   static_dir: static/js
 
   # dev_appserver.py ~/projects/www-postpal
+  #nope-application: www-postpal
+  #nope-version: 1
