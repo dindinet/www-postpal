@@ -1,4 +1,5 @@
-
+#application: www-postpal
+#version: 1
 runtime: python27
 api_version: 1
 threadsafe: true
@@ -29,6 +30,17 @@ handlers:
 
 - url: /js
   static_dir: static/js
+
+skip_files:
+- ^config.toml$
+- ^static/config.yaml$
+- ^static/Directorylisting.txt$
+- ^content$
+- ^layouts$
+- ^data$
+- ^appadmin$
+- ^public$
+- ^(.*/)?\..*$
 
   # dev_appserver.py ~/projects/www-postpal
   # nope-application: www-postpal
