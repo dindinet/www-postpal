@@ -43,5 +43,3 @@ skip_files:
 - ^(.*/)?\..*$
 
   # dev_appserver.py ~/projects/www-postpal
-  # nope-application: www-postpal
-  # nope-version: 1
