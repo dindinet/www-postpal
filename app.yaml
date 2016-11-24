@@ -32,14 +32,16 @@ handlers:
   static_dir: static/js
 
 skip_files:
+- ^archetypes$
+- ^appadmin$
 - ^config.toml$
+- ^content$
 - ^static/config.yaml$
 - ^static/Directorylisting.txt$
-- ^content$
-- ^layouts$
 - ^data$
-- ^appadmin$
+- ^layouts$
 - ^public$
+- ^themes$
 - ^(.*/)?\..*$
 
   # dev_appserver.py ~/projects/www-postpal
