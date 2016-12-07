@@ -1,30 +1,16 @@
-<!DOCTYPE html>
-<html>
+---
+title: "About the Company"
+type: "page"
+url: "home.html"
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="css/styles.min.css">
-    <link href='favicon.png' rel='icon' type='image/png'/>
-</head>
 
-<body style="font-size:18px;">
-    <div class="container-fluid">
-   {{ partial "nav.html" . }}
-        <div class="jumbotron"><img class="img-responsive" src="https://lh3.googleusercontent.com/fLoDmPepD8mAM1ib9QtOjSw7q1uK9ZcMmCNlP4om6NA24ae15_deLIDZbH180sJrohK3hLO5AA=s1400-rj-v2-e365">
-            <p class="text-center">When your back is against the wall and the only person that will get your project online is you... What do you need?</p>
-        </div>
-    </div>
+
     <div class="testimonials-clean">
         <div class="container-fluid" id="mpowers">
             <div class="intro">
-                <h1 class="text-center" id="magic-powers">Super Digital Powers</h1>
-                <p>Once you accept your <b>Super</b> Digital Powers you will first need to train yourself in their use. Your training will not be difficult, confusing or in any way evil. </p>
+                <h1 class="text-center" id="magic-powers">Magic Digital Powers</h1>
+                <p>Once you accept your Magic Powers you will first need to train yourself in their use. Your training will not be difficult, confusing or in any way evil. </p>
                 <p>You may not notice your powers growing at first, but little by little you will feel as though you are moving faster and more efficiently than others around you. You will have new purpose. Obstacles that once prevented you from reaching
                     your goals will now feel like helpful steps on the ladder to success.</p>
                 <p>The people that matter will notice the change in you. You will now have greater leverage as your stature within your team grows.</p>
@@ -36,22 +22,13 @@
             <div class="intro">
                 <h2 class="text-center">Testimonials </h2>
                 <p class="text-center">Our customers love us! Read what they have to say below. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
-                        <!-- Recent Posts section -->
-        <h1 class="post-title">Recent Posts</h1>
-          <section id="main">
-            <ul id="list">
-              {{ range first 10 .Data.Pages }}
-              {{ .Render "summary"}}
-              {{ end }}
-            </ul>
-          </section>
             </div>
             <div class="row people">
                 <div class="col-md-4 col-sm-6 item">
                     <div class="box">
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                     </div>
-                    <div class="author"><img class="img-circle" src="img/1.jpg">
+                    <div class="author"><img class="img-circle" src="../img/1.jpg">
                         <h5 class="name">Ben Johnson</h5>
                         <p class="title">CEO of Company Inc.</p>
                     </div>
@@ -60,7 +37,7 @@
                     <div class="box">
                         <p class="description">Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id.</p>
                     </div>
-                    <div class="author"><img class="img-circle" src="img/3.jpg">
+                    <div class="author"><img class="img-circle" src="../img/3.jpg">
                         <h5 class="name">Carl Kent</h5>
                         <p class="title">Founder of Style Co.</p>
                     </div>
@@ -69,7 +46,7 @@
                     <div class="box">
                         <p class="description">Aliquam varius finibus est, et interdum justo suscipit. Vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p>
                     </div>
-                    <div class="author"><img class="img-circle" src="img/2.jpg">
+                    <div class="author"><img class="img-circle" src="../img/2.jpg">
                         <h5 class="name">Emily Clark</h5>
                         <p class="title">Owner of Creative Ltd.</p>
                     </div>
@@ -97,9 +74,4 @@
                 </div><a href="#" class="already">we keep your info safe and will never share with anyone not even the government</a></form>
         </div>
     </div>
-   {{ partial "footer.html" . }}
-   {{ partial "js-footer.html" . }}
 
-</body>
-
-</html>
