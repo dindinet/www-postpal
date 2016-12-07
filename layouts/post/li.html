@@ -13,18 +13,15 @@
     <link href='favicon.png' rel='icon' type='image/png'/>
 </head>
 <body style="font-size:18px;">
-<h1>News Blog</h1>
+
    <div class="container-fluid">
    {{ partial "nav.html" . }}
    </div>
-   <section id="main">
-     <ul id="list">
-       {{ range .Data.Pages }}
-         {{ .Render "summary"}}
-       {{ end }}
-     </ul>
-    </section>
-   {{ partial "footer.html" . }}
-   {{ partial "js-footer.html" . }}
+<h1>Post Li Html</h1>
+
+
+{{ partial "footer.html" . }}
+{{ partial "js-footer.html" . }}
+
 </body>
 </html>
