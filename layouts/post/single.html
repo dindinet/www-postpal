@@ -2,6 +2,9 @@
 <section id="main">
   <h1 id="title">{{ .Title }}</h1>
   <div>
+   <p>
+     author: {{ .Params.author.name }} on {{ .Params.updated.Format "2 January at 3:04pm" }}
+    </p> 
         <article id="content">
            {{ .Content }}
         </article>
