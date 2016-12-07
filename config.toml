@@ -1,2 +1,7 @@
-baseurl = "https://www.postpal.com/"
+baseurl = "https://fb.postpal.com/"
 title = "Mentoring for the digitally crippled"
+[taxonomies]
+tag = "tags"
+[Params]
+#cssurl = "//port-1313.www-postpal-githubdklongley901739.codeanyapp.com/"
+cssurl = "https://fb.postpal.com/"
