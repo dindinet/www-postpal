@@ -1,4 +1,4 @@
-{{ $cssurl := .Site.Params.cssurl }}
+{{ $siteurl := .Site.BaseURL }}
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="{{ $cssurl }}css/styles.min.css">
+    <link rel="stylesheet" href="{{ $siteurl }}css/styles.min.css">
     <link href='favicon.png' rel='icon' type='image/png'/>
 </head>
 

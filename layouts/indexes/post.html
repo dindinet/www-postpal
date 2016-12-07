@@ -1,0 +1,19 @@
+{{ $cssurl := .Site.Params.cssurl }}
+{{ partial "header.html" . }}
+<body style="font-size:18px;">
+
+   <div class="container-fluid">
+   {{ partial "nav.html" . }}
+   </div>
+   <section id="main">
+     <ul id="list">
+       {{ range .Data.Pages }}
+         {{ .Render "summary"}}
+       {{ end }}
+     </ul>
+    </section>
+{{ partial "footer.html" . }}
+{{ partial "js-footer.html" . }}
+
+</body>
+</html>

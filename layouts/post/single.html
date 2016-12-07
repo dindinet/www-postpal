@@ -1,5 +1,4 @@
-{{ $baseurl := .Site.BaseURL }}
-{{ $cssurl := .Site.Params.cssurl }}
+{{ $siteurl := .Site.BaseURL }}
 <!DOCTYPE html>
 <html>
 
@@ -11,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-    <link rel="stylesheet" href="{{ $cssurl }}css/styles.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.min.css">
     <link href='favicon.png' rel='icon' type='image/png'/>
 </head>
 
@@ -40,12 +39,12 @@
     </section>
     <ul id="categories">
       {{ range .Params.topics }}
-        <li><a href="{{ $baseurl }}/topics/{{ . | urlize }}">{{ . }}</a> </li>
+        <li><a href="{{ $siteurl }}/topics/{{ . | urlize }}">{{ . }}</a> </li>
       {{ end }}
     </ul>
     <ul id="tags">
       {{ range .Params.tags }}
-        <li> <a href="{{ $baseurl }}tags/{{ . | urlize }}">{{ . }}</a> </li>
+        <li> <a href="{{ $siteurl }}tags/{{ . | urlize }}">{{ . }}</a> </li>
       {{ end }}
     </ul>
     </div>

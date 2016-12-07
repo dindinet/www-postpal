@@ -1,11 +1,8 @@
 baseurl = "https://fb.postpal.com/"
+#baseurl = "localhost:1313"
 title = "Mentoring for the digitally crippled"
-<<<<<<< HEAD
-=======
 [taxonomies]
 tag = "tags"
 post = "posts"
 [Params]
 #cssurl = "//port-1313.www-postpal-githubdklongley901739.codeanyapp.com/"
-cssurl = "https://fb.postpal.com/"
->>>>>>> 47ecc633f6c9945702ee58d74eed038ea67a4740

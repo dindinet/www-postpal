@@ -1,0 +1,89 @@
+INFO: 2016/12/07 17:12:08 hugo.go:463: Using config file: /home/papo/projects/www-postpal/config.toml
+WARN: 2016/12/07 17:12:08 hugo.go:551: Unable to find Theme Static Directory: 
+INFO: 2016/12/07 17:12:08 hugo.go:571: /home/papo/projects/www-postpal/static/ is the only static directory available to sync from
+INFO: 2016/12/07 17:12:08 hugo.go:609: syncing static files to /
+INFO: 2016/12/07 17:12:08 site.go:1251: found taxonomies: map[string]string{"tag":"tags", "post":"posts"}
+WARN: 2016/12/07 17:12:08 site.go:2014: Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html]
+WARN: 2016/12/07 17:12:08 site.go:1990: "" is rendered empty
+WARN: 2016/12/07 17:12:08 site.go:1990: "base.html" is rendered empty
+WARN: 2016/12/07 17:12:08 site.go:1990: "my-money.html" is rendered empty
+WARN: 2016/12/07 17:12:08 site.go:2014: Unable to locate layout for 404 page: [404.html]
+WARN: 2016/12/07 17:12:08 site.go:1990: "404.html" is rendered empty
+LOG:   2016/12/07 17:12:08 site.go:1865: 0 draft content
+LOG:   2016/12/07 17:12:08 site.go:1866: 0 future content
+LOG:   2016/12/07 17:12:08 site.go:1867: 7 pages created
+LOG:   2016/12/07 17:12:08 site.go:1868: 0 non-page files copied
+LOG:   2016/12/07 17:12:08 site.go:1869: 0 paginator pages created
+LOG:   2016/12/07 17:12:08 site.go:1873: 6 tags created
+LOG:   2016/12/07 17:12:08 site.go:1873: 0 posts created
+LOG:   2016/12/07 17:12:08 hugo.go:693: in 65 ms
+LOG:   2016/12/07 17:12:08 server.go:177: Watching for changes in /home/papo/projects/www-postpal/{data,content,layouts,static}
+LOG:   2016/12/07 17:12:08 server.go:194: Serving pages from memory
+LOG:   2016/12/07 17:12:08 server.go:213: Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+INFO: 2016/12/07 17:25:27 hugo.go:463: Using config file: /home/papo/projects/www-postpal/config.toml
+WARN: 2016/12/07 17:25:27 hugo.go:551: Unable to find Theme Static Directory: 
+INFO: 2016/12/07 17:25:27 hugo.go:571: /home/papo/projects/www-postpal/static/ is the only static directory available to sync from
+INFO: 2016/12/07 17:25:27 hugo.go:609: syncing static files to /
+INFO: 2016/12/07 17:25:27 site.go:1251: found taxonomies: map[string]string{"tag":"tags", "post":"posts"}
+WARN: 2016/12/07 17:25:27 site.go:2014: Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html]
+WARN: 2016/12/07 17:25:27 site.go:1990: "" is rendered empty
+WARN: 2016/12/07 17:25:27 site.go:1990: "base.html" is rendered empty
+WARN: 2016/12/07 17:25:27 site.go:2014: Unable to locate layout for 404 page: [404.html]
+WARN: 2016/12/07 17:25:27 site.go:1990: "404.html" is rendered empty
+LOG:   2016/12/07 17:25:27 site.go:1865: 0 draft content
+LOG:   2016/12/07 17:25:27 site.go:1866: 0 future content
+LOG:   2016/12/07 17:25:27 site.go:1867: 7 pages created
+LOG:   2016/12/07 17:25:27 site.go:1868: 0 non-page files copied
+LOG:   2016/12/07 17:25:27 site.go:1869: 0 paginator pages created
+LOG:   2016/12/07 17:25:27 site.go:1873: 6 tags created
+LOG:   2016/12/07 17:25:27 site.go:1873: 0 posts created
+LOG:   2016/12/07 17:25:27 hugo.go:693: in 68 ms
+LOG:   2016/12/07 17:25:27 server.go:177: Watching for changes in /home/papo/projects/www-postpal/{data,content,layouts,static}
+LOG:   2016/12/07 17:25:27 server.go:194: Serving pages from memory
+LOG:   2016/12/07 17:25:27 server.go:213: Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+INFO: 2016/12/07 17:27:12 hugo.go:737: Received System Events: ["/home/papo/projects/www-postpal/layouts/post/single.html": WRITE "/home/papo/projects/www-postpal/layouts/post/single.html": WRITE]
+LOG:   2016/12/07 17:27:12 general.go:222: Template changed /home/papo/projects/www-postpal/layouts/post/single.html
+ERROR: 2016/12/07 17:27:12 template.go:472: template: post/single.html:41: undefined variable "$baseurl"
+WARN: 2016/12/07 17:27:12 site.go:2014: Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html]
+WARN: 2016/12/07 17:27:12 site.go:1990: "" is rendered empty
+WARN: 2016/12/07 17:27:12 site.go:1990: "/pick/me/for/king" is rendered empty
+WARN: 2016/12/07 17:27:12 site.go:1990: "post/offsite.html" is rendered empty
+WARN: 2016/12/07 17:27:12 site.go:1990: "post/socialmedia.html" is rendered empty
+WARN: 2016/12/07 17:27:12 site.go:1990: "base.html" is rendered empty
+WARN: 2016/12/07 17:27:12 site.go:1990: "post/aftermipim.html" is rendered empty
+WARN: 2016/12/07 17:27:13 site.go:2014: Unable to locate layout for 404 page: [404.html]
+WARN: 2016/12/07 17:27:13 site.go:1990: "404.html" is rendered empty
+LOG:   2016/12/07 17:27:13 site.go:1865: 0 draft content
+LOG:   2016/12/07 17:27:13 site.go:1866: 0 future content
+LOG:   2016/12/07 17:27:13 site.go:1867: 7 pages created
+LOG:   2016/12/07 17:27:13 site.go:1868: 0 non-page files copied
+LOG:   2016/12/07 17:27:13 site.go:1869: 0 paginator pages created
+LOG:   2016/12/07 17:27:13 site.go:1873: 0 posts created
+LOG:   2016/12/07 17:27:13 site.go:1873: 6 tags created
+LOG:   2016/12/07 17:27:13 hugo.go:705: in 47 ms
+INFO: 2016/12/07 17:27:28 hugo.go:463: Using config file: /home/papo/projects/www-postpal/config.toml
+WARN: 2016/12/07 17:27:28 hugo.go:551: Unable to find Theme Static Directory: 
+INFO: 2016/12/07 17:27:28 hugo.go:571: /home/papo/projects/www-postpal/static/ is the only static directory available to sync from
+INFO: 2016/12/07 17:27:28 hugo.go:609: syncing static files to /
+ERROR: 2016/12/07 17:27:28 template.go:472: template: post/single.html:41: undefined variable "$baseurl"
+INFO: 2016/12/07 17:27:28 site.go:1251: found taxonomies: map[string]string{"tag":"tags", "post":"posts"}
+WARN: 2016/12/07 17:27:28 site.go:2014: Unable to locate layout for section : [section/.html _default/section.html _default/list.html indexes/.html _default/indexes.html]
+WARN: 2016/12/07 17:27:28 site.go:1990: "" is rendered empty
+WARN: 2016/12/07 17:27:28 site.go:1990: "/pick/me/for/king" is rendered empty
+WARN: 2016/12/07 17:27:28 site.go:1990: "base.html" is rendered empty
+WARN: 2016/12/07 17:27:28 site.go:1990: "post/offsite.html" is rendered empty
+WARN: 2016/12/07 17:27:28 site.go:1990: "post/aftermipim.html" is rendered empty
+WARN: 2016/12/07 17:27:28 site.go:1990: "post/socialmedia.html" is rendered empty
+WARN: 2016/12/07 17:27:28 site.go:2014: Unable to locate layout for 404 page: [404.html]
+WARN: 2016/12/07 17:27:28 site.go:1990: "404.html" is rendered empty
+LOG:   2016/12/07 17:27:28 site.go:1865: 0 draft content
+LOG:   2016/12/07 17:27:28 site.go:1866: 0 future content
+LOG:   2016/12/07 17:27:28 site.go:1867: 7 pages created
+LOG:   2016/12/07 17:27:28 site.go:1868: 0 non-page files copied
+LOG:   2016/12/07 17:27:28 site.go:1869: 0 paginator pages created
+LOG:   2016/12/07 17:27:28 site.go:1873: 6 tags created
+LOG:   2016/12/07 17:27:28 site.go:1873: 0 posts created
+LOG:   2016/12/07 17:27:28 hugo.go:693: in 59 ms
+LOG:   2016/12/07 17:27:28 server.go:177: Watching for changes in /home/papo/projects/www-postpal/{data,content,layouts,static}
+LOG:   2016/12/07 17:27:28 server.go:194: Serving pages from memory
+LOG:   2016/12/07 17:27:28 server.go:213: Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
