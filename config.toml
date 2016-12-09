@@ -6,3 +6,4 @@ tag = "tags"
 post = "posts"
 [Params]
 #cssurl = "//port-1313.www-postpal-githubdklongley901739.codeanyapp.com/"
+ignoreFiles = [ "\\.toml$", "\\.yaml$",, "\\.json$", "\\.txt$", "\\.yaml$" ]
