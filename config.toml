@@ -1,7 +1,7 @@
 baseurl = "https://fb.postpal.com/"
 #baseurl = "localhost:1313"
 title = "Mentoring for the digitally crippled"
-ignoreFiles = [ "\\.toml$", "\\.yaml$",, "\\.json$", "\\.txt$", "\\.yaml$" ]
+ignoreFiles = [ "\\.toml$", "\\.yaml$", "\\.json$", "\\.txt$", "\\.sh$" ]
 [taxonomies]
   tag = "tags"
   post = "posts"
