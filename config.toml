@@ -1,8 +1,10 @@
 baseurl = "https://fb.postpal.com/"
 #baseurl = "localhost:1313"
 title = "Mentoring for the digitally crippled"
+ignoreFiles = [ "\\.toml$", "\\.yaml$", "\\.json$", "\\.txt$", "\\.sh$" ]
 [taxonomies]
-tag = "tags"
-post = "posts"
+  tag = "tags"
+  post = "posts"
 [Params]
-#cssurl = "//port-1313.www-postpal-githubdklongley901739.codeanyapp.com/"
+  #cssurl = "//port-1313.www-postpal-githubdklongley901739.codeanyapp.com/"
+
